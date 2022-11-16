@@ -20,6 +20,8 @@ int main() {
             std::cout<<"Test on thread: "<<threadId<<std::endl;
             std::this_thread::sleep_for(std::chrono::seconds(5));
             std::lock_guard<std::mutex> lock(c_lock);
+
+            //binds to one
         }));
     }
     std::cout<<"Main thread: "<<threadId<<std::endl;
