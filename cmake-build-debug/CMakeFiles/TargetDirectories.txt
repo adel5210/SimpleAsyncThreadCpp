@@ -1,0 +1,3 @@
+/home/pc7/CLionProjects/SimpleAsyncThread/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/pc7/CLionProjects/SimpleAsyncThread/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/pc7/CLionProjects/SimpleAsyncThread/cmake-build-debug/CMakeFiles/SimpleAsyncThread.dir
