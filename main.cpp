@@ -23,11 +23,17 @@ int main() {
             std::string t=ss.str();
 
             threadsList.emplace_back("threadId: "+t);
-            std::cout<<"Test on thread: "<<t<<std::endl;
+//            std::cout<<"Test on thread: "<<t<<std::endl;
         }));
     }
     std::cout<<"Main thread: "<<threadId<<std::endl;
-
+    std::for_each(handles.begin(), handles.end(), [](std::future<void>& v){
+        std::cout<<"Getting thread \n";
+        v.get();
+    });
+    std::for_each(threadsList.begin(), threadsList.end(), [](std::string& v){
+       std::cout<<"Test thread: "<< v<<"\n";
+    });
 
     return 0;
 }
