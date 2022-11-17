@@ -9,14 +9,4 @@
 /home/pc7/CLionProjects/SimpleAsyncThread/main.cpp
 bits/stdc++.h
 -
-vector
--
-future
--
-iostream
--
-chrono
--
-mutex
--
 
